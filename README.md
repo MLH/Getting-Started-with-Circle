@@ -51,18 +51,18 @@ yarn dev
 Your sample application will be running on localhost:3011 and should look like the image below. 
 
 
-<img src="Images/circle_image3.png" width="30%">
+<img src="Images/circle_image3.png" width="40%">
 
 Hit the settings gear on the top right corner of the application, input the entire API key you generated during the set up phase and hit enter to continue. (Remember to include the SAND_API_KEY: portion of the API key as well). 
 
-<img src="Images/circle_image4.png" width="30%">
+<img src="Images/circle_image4.png" width="40%">
 
 <h2>Accepting your First Payment with Circle</h2>
 
 
 Now that you have your API key submitted, let’s head over to the home page and accept a payment using Circle’s payment API. When you click the “Charge Flow” button, you’ll be redirected to a payment form. Go ahead and use the “Prefill Form” option, select any one of the test credit card numbers provided and input a payment amount. 
 
-<img src="Images/circle_image5.png" width="30%">
+<img src="Images/circle_image5.png" width="40%">
 
 At the bottom of the form, you’ll find the option to make a payment. Go ahead and hit submit! 
 
