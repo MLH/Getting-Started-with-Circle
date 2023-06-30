@@ -10,22 +10,13 @@ Circle’s sandbox environment is a development tool that allows you to safely t
 
 If you want to learn more about Circle’s sandbox environment, check out their sandbox [documentation](https://developers.circle.com/developer/docs/circle-apis-production-sandbox-environments). 
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+<img src="Images/circle_image1.png" width="75%">
 
 
 Once your sandbox account is set up, you can generate an API KEY which will give you the ability to leverage Circle’s API. 
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+<img src="Images/circle_image2.png" width="75%">
 
 
 Circle’s API is RestFul, so any programming language that can call a REST API will work well. They offer [SDKs](https://hackp.ac/circle-sdk) for JavaScript, Python and Java, making it even easier to use Circle’s services.
@@ -60,25 +51,29 @@ yarn dev
 Your sample application will be running on localhost:3011 and should look like the image below. 
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
+<img src="Images/circle_image3.png" width="30%">
 
 Hit the settings gear on the top right corner of the application, input the entire API key you generated during the set up phase and hit enter to continue. (Remember to include the SAND_API_KEY: portion of the API key as well). 
+
+<img src="Images/circle_image4.png" width="30%">
 
 <h2>Accepting your First Payment with Circle</h2>
 
 
 Now that you have your API key submitted, let’s head over to the home page and accept a payment using Circle’s payment API. When you click the “Charge Flow” button, you’ll be redirected to a payment form. Go ahead and use the “Prefill Form” option, select any one of the test credit card numbers provided and input a payment amount. 
 
+<img src="Images/circle_image5.png" width="30%">
+
 At the bottom of the form, you’ll find the option to make a payment. Go ahead and hit submit! 
+
+<img src="Images/circle_image6.png" width="30%">
 
 It should take a second or so to process the payment. If your API Key was correctly input and your request form contained a valid card number with the necessary fields completed, then you should receive a confirmation similar to the image below! 
 
 Congratulations! You’ve accepted your first credit card payment using Circle’s payment API! 
+
+<img src="Images/circle_image7.png" width="30%">
+
 
 <h2>Programmatically Check the Status of your Card Payment</h2>
 
@@ -155,11 +150,7 @@ Jump back into the terminal and run the `node index.js` command.
 The terminal response should reflect the payment you submitted in the Sample Application earlier. 
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
+<img src="Images/circle_image8.png" width="75%">
 
 
 <h2>Recap</h2>
