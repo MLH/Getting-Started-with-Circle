@@ -4,7 +4,7 @@
 <h2>Account Set Up</h2>
 
 
-The fastest way to onboard onto Circle is by heading over to [https://hackp.ac/Circle](https://hackp.ac/Circle) and signing up for a sandbox account. 
+The fastest way to onboard onto Circle is by heading over to [https://hackp.ac/Circle-Sandbox](https://hackp.ac/Circle-Sandbox) and signing up for a sandbox account. 
 
 Circle’s sandbox environment is a development tool that allows you to safely test prototypes and integration without generating actual financial transactions. 
 
