@@ -1,5 +1,12 @@
 <h1>Getting Started with Circle</h1>
 
+<h2>Overview</h2>
+
+Here's what we'll accomplish in the next 15 minutes:
+
+* Set up your first Circle Sandbox account
+* Interact with Circle's payment sample application
+* Programmatically leverage Circle's REST API
 
 <h2>Account Set Up</h2>
 
